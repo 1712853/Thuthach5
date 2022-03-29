@@ -101,12 +101,20 @@ a:hover
     width: 140px;
     
     position: absolute; 
-    bottom: 30px;
+    bottom: 20px;
     right: 50%;
     transform: translate(50%,0);
     text-align: center;
-    color: rgba(189, 185, 185, 0.904);
+    
+    
+    
+    
+}
+.circle
+{
     font-size: 11px;
-    
-    
+    color: rgba(189, 185, 185, 0.904);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
 }

@@ -33,12 +33,21 @@
     text-align: center;
     
 }
+
+.item3-icon
+{
+    color: orange;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
 #left p
 {
-    width: 60%;
+    width: 55%;
     text-align: left;
     color: rgba(114, 111, 111, 0.767);
     margin: 10px 0px 10px 50px;
+    font-size: 20px;
     
 }
 #left h2{
@@ -57,9 +66,9 @@
     margin: auto;
     color: rgba(114, 111, 111, 0.767);
 }
-.item3 img
+#right h2
 {
-    
-    padding-top: 30px;
+    font-size: 30px;
 }
+
 
