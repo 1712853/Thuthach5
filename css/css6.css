@@ -1,0 +1,74 @@
+#testimonials
+{
+    background-image: url(../img/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 800px;
+    width: 100%;
+    
+}
+#testimonials h2
+{
+    color: white;
+    font-size: 60px;
+    padding-top: 85px;
+    margin: 0px 0px 80px 0px;
+    text-align: center;
+}
+
+.container4
+{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-template-areas: 
+    "div1 div2 div3";
+    margin: 0px 180px 0px 180px;
+    column-gap: 20px;
+    
+    
+}
+.container4 p
+{
+    width: 70%;
+    margin: 20px auto 40px;
+    color: white;
+    font-size: 19px;
+
+}
+.container4 img
+{
+    border-radius: 50%;
+    width: 120px;
+
+}
+.container4 h3
+{
+    color: orange;
+    text-transform: uppercase;
+    font-size: 24px;
+    position: relative;
+    left: 75px;
+    top: 30px;
+    
+}
+.item4-1
+{
+    grid-area: div1;
+    
+    text-align: center;
+}
+.item4-2
+{
+    grid-area: div2;
+    
+    text-align: center;
+}
+.item4-3
+{
+    grid-area: div3;
+    
+    text-align: center;
+}

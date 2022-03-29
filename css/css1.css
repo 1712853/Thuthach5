@@ -1,0 +1,24 @@
+#welcome
+{
+    padding: 50px 120px;
+    
+}
+#welcome img
+{
+    width: 100%;
+
+}
+#welcome h2
+{
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+}
+#welcome p
+{
+    text-align: center;
+    color: grey;
+    width: 70%;
+    
+    margin: 30px auto;
+}

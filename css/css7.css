@@ -1,0 +1,88 @@
+#ourblog
+{
+    
+    height: 780px;
+}
+#ourblog h2
+{
+    margin-top: 70px;
+    
+    text-align: center;
+    font-size: 50px;
+}
+.container5
+{
+    display: grid;
+    
+    margin: 0px 160px 0px 160px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 550px;
+    grid-template-areas: "item5a item5b item5c";
+    column-gap: 50px;
+    
+
+}
+.container5 img
+{
+    width: 100%;
+}
+.container5 h3
+{
+    font-size: 24px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+.container5 strong
+{
+    
+    color: orange;
+    font-weight: 600;
+}
+.item5a
+{
+    grid-area: item5a;
+    
+    text-align: left;
+    border: 1px solid rgba(153, 149, 149, 0.178);
+    
+}
+.item5b
+{
+    grid-area: item5b;
+    
+    text-align: left;
+    border: 1px solid rgba(153, 149, 149, 0.178);
+}
+.item5c
+{
+    grid-area: item5c;
+    
+    text-align: left;
+    border: 1px solid rgba(153, 149, 149, 0.178);
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+
+.content
+{
+    width: 80%;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.content p
+{
+    color: rgb(182, 181, 181);
+    font-weight: 600;
+}
+.item5c h3
+{
+    width: 80%;
+}
+.item5c h5
+{
+    font-size: 16px;
+    color: rgb(248, 181, 58);
+}
+
+

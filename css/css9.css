@@ -1,0 +1,125 @@
+#contact
+{
+    padding: 50px 150px 30px 150px;
+}
+#contact h2
+{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+.container6
+{
+    display: flex;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 60px;
+
+}
+
+.item6a
+{
+    width: 50%;
+    height: 400px;
+    
+    height: 600px;
+    padding-left: 30px;
+
+}
+.item6a p
+{
+    font-size: 18px;
+    width: 70%;
+    color: rgba(138, 136, 136, 0.9);
+}
+.item6a h3
+{
+    font-size: 30px;
+    color: orange;
+}
+.item6a h4
+{
+    font-size: 24px;
+    margin-top: 0px;
+}
+.item6a-icon
+{
+    font-size: 40px;
+    
+}
+.item6aa
+{
+    display: flex;
+    height: auto;
+}
+.item6aa1
+{
+    margin-left: 40px;
+}
+.item6ab
+{
+    display: flex;
+    height: auto;
+}
+.item6ab1
+{
+    margin-left: 40px;
+}
+.item6ac
+{
+    display: flex;
+    height: auto;
+}
+.item6ac1
+{
+    margin-left: 40px;
+}
+
+.item6b
+{
+    width: 50%;
+    height: 600px;
+    
+    background-color: rgba(221, 219, 219, 0.270);
+
+}
+#name
+{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 1%;
+    border: 1px solid gray;
+}
+#email
+{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 1%;
+    border: 1px solid gray;
+    
+}
+#message
+{
+    width: 80%;
+    border-radius: 1%;
+    border: 1px solid gray;
+    
+}
+#submit
+{
+    color: white;
+    background-color: orange;
+    width: 80%;
+    height: 40px;
+    border-radius: 1%;
+    border: 1px solid gray;
+}
+form
+{
+    text-align: center;
+    margin-top: 55px;
+
+    
+}
