@@ -89,7 +89,7 @@
     height: 40px;
     margin-bottom: 30px;
     border-radius: 1%;
-    border: 1px solid gray;
+    border: 0px;
 }
 #email
 {
@@ -97,14 +97,14 @@
     height: 40px;
     margin-bottom: 30px;
     border-radius: 1%;
-    border: 1px solid gray;
+    border: 0px;
     
 }
 #message
 {
     width: 80%;
     border-radius: 1%;
-    border: 1px solid gray;
+    border: 0px;
     
 }
 #submit
@@ -114,7 +114,7 @@
     width: 80%;
     height: 40px;
     border-radius: 1%;
-    border: 1px solid gray;
+    border: 0px;
 }
 form
 {

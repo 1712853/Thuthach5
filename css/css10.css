@@ -1,0 +1,103 @@
+#lastFooter
+{
+    padding: 60px 100px;
+    background-color: black;
+    display: flex;
+    
+    
+}
+#lastFooter h3{
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+#lastFooter h4
+{
+    color: white;
+}
+#lastFooter p
+{
+    color: rgba(114, 113, 113, 0.925);
+    width: 75%;
+}
+.itemFooter
+{
+    width: 25%;
+    padding-left: 2%;
+    
+}
+#email2
+{
+    height: 40px;
+    border: 0px;
+}
+#submit2
+{
+    height: 40px;
+    color: white;
+    background-color: orange;
+    width: 17%;
+    border: 0px;
+    position: relative;
+    right: 2%;
+}
+.iconFooter
+{
+    font-size: 20px;
+    color: white;
+    
+    
+    
+    
+}
+.fb
+{
+    background-color: rgb(19, 19, 92);
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tw
+{
+    background-color: rgb(0, 155, 255);
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.yt
+{
+    background-color: rgb(230, 15, 15);
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.gg
+{
+    background-color: rgb(221, 29, 29);
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.linkMxh
+{
+    width: 40px;
+    margin: 10px;
+    
+    
+}
+a.linkMxh:-webkit-any-link 
+{
+    text-decoration: none; 
+    color: white;
+} 
+
+
+
+
