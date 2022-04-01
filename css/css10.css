@@ -44,7 +44,7 @@
 .iconFooter
 {
     font-size: 20px;
-    color: white;
+    
     
     
     
@@ -92,7 +92,7 @@
     
     
 }
-a.linkMxh:-webkit-any-link 
+a.linkMxh
 {
     text-decoration: none; 
     color: white;
