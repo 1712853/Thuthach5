@@ -55,7 +55,7 @@ nav
     
 }
 
-a:hover
+a.item2:hover
 {
     background-color: white;
     color: black;
