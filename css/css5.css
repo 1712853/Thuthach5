@@ -73,8 +73,9 @@
 }
 #right h2
 {
-    font-size: 30px;
+    font-size: 2em;
     margin: 35px auto;
+    font-weight: normal;
 }
 
 
