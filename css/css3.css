@@ -14,7 +14,7 @@
     display: flex;
     
     height: 100px;
-    
+    justify-content: space-between;   
 }
 #logo
 {
@@ -26,51 +26,76 @@
     
 }
 
-nav
+#menu
 {
     
-    
-    position: absolute;
-    right: 50px;
-    top: 30px;
-    
+    margin: 0px 50px 0px 0px; 
+   
 
     
 }
-ul
-{
-    list-style-type: none;
-    margin: 0px;
-}
-li
-{
-    display: inline-block;
-}
+
+
 .chevron-down
 {
     font-size: 14px;
     font-weight: 800;
 }
-nav a
+
+#menu ul li
+{
+    display: inline-block;
+    position: relative;
+
+}
+#menu ul li a
 {
     color: white;
-    
+    display: block;
     text-decoration: none;
     text-align: center;
-    margin: 5px;
-    padding: 15px;
+    font-size: 17px;
+    padding: 17px;
+    border-radius: 5px;
+
 }
 
 
 
-nav a:hover
+#menu ul li a:hover
 {
     background-color: white;
     color: black;
-    border-radius: 10%;
-    padding: 15px;
+    padding: 17px;
     
 }
+
+.sub_menu 
+{
+    position: absolute;
+    background-color: black;
+    padding-left: 0px;
+    display: none;
+}
+
+ul.sub_menu a
+{
+    width: 128px;
+    
+}
+
+ul.sub_menu li:hover
+{
+    width: 128px;
+
+}
+
+#menu ul li:hover .sub_menu
+{
+    display: block;
+}
+
+
 #main-header
 {
     
@@ -139,22 +164,4 @@ nav a:hover
     margin-right: 5px;
     margin-top: 20px;
 }
-.dropdown
-{
-    position: relative;
-    
 
-}
-.dropdown_list
-{
-    
-    display: none;
-    position: absolute;
-    background-color: #4e2f2f;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-    
-    
-  
-}
