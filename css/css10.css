@@ -8,7 +8,7 @@
 }
 #lastFooter h3{
     color: white;
-    font-size: 28px;
+    font-size: 23px;
     text-transform: uppercase;
 }
 #lastFooter h4
@@ -35,11 +35,13 @@
 {
     height: 40px;
     color: white;
-    background-color: orange;
+    background-color: rgb(219, 145, 8);
     width: 17%;
     border: 0px;
     position: relative;
-    right: 2%;
+    right: 5px;
+    
+
 }
 .iconFooter
 {
@@ -52,7 +54,7 @@
 }
 .fb
 {
-    background-color: rgb(19, 19, 92);
+    background-color: rgb(48, 48, 131);
     width: 40px;
     text-align: center;
     padding-top: 10px;
@@ -67,9 +69,9 @@
     padding-bottom: 10px;
     
 }
-.yt
+.db
 {
-    background-color: rgb(230, 15, 15);
+    background-color: #ea4c89;
     width: 40px;
     text-align: center;
     padding-top: 10px;
@@ -88,13 +90,13 @@
 .linkMxh
 {
     width: 40px;
-    margin: 10px;
+    margin-right: 5px;
     
     
 }
 a.linkMxh
 {
-    text-decoration: none; 
+    text-decoration: none;
     color: white;
 } 
 

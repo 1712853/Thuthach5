@@ -1,10 +1,10 @@
 #contact
 {
-    padding: 50px 150px 30px 150px;
+    padding: 30px 150px 30px 150px;
 }
 #contact h2
 {
-    font-size: 50px;
+    font-size: 3em;
     text-align: center;
     padding-top: 20px;
 }
@@ -36,11 +36,13 @@
 {
     font-size: 30px;
     color: orange;
+    font-weight: 400;
 }
 .item6a h4
 {
     font-size: 24px;
     margin-top: 0px;
+    font-weight: 300;
 }
 .item6a-icon
 {
@@ -88,23 +90,30 @@
     width: 80%;
     height: 40px;
     margin-bottom: 30px;
+    padding: 15px;
     border-radius: 1%;
     border: 0px;
+    border: 1px solid #e6e6e6;
+    outline: none;
 }
 #email
 {
     width: 80%;
     height: 40px;
     margin-bottom: 30px;
-    border-radius: 1%;
-    border: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    outline: none;
     
 }
 #message
 {
     width: 80%;
-    border-radius: 1%;
-    border: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #e6e6e6;
     
 }
 #submit
@@ -113,8 +122,10 @@
     background-color: orange;
     width: 80%;
     height: 40px;
-    border-radius: 1%;
-    border: 0px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    
 }
 form
 {

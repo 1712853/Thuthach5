@@ -1,18 +1,20 @@
 #testimonials
 {
     background-image: url(../img/bg.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 45px;
+    padding-bottom: 65px;
     
-    height: 800px;
-    width: 100%;
+    
+    
     
 }
 #testimonials h2
 {
     color: white;
-    font-size: 60px;
-    padding-top: 85px;
+    font-size: 3em;
+    
     margin: 0px 0px 80px 0px;
     text-align: center;
 }
@@ -22,7 +24,7 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px;
+    grid-template-rows: auto;
     grid-template-areas: 
     "div1 div2 div3";
     margin: 0px 180px 0px 180px;
@@ -32,7 +34,7 @@
 }
 .container4 p
 {
-    width: 70%;
+    width: 90%;
     margin: 20px auto 40px;
     color: white;
     font-size: 19px;
@@ -51,8 +53,7 @@
     font-size: 24px;
     position: relative;
     left: 75px;
-    top: 30px;
-    
+    margin-top: 20px;
 }
 .item4-1
 {
