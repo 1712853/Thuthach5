@@ -18,7 +18,7 @@
 {
     width: 25%;
     
-    height: 350px;
+    
     padding: 30px;
 
 }
@@ -37,4 +37,32 @@
 .container h3
 {
     font-weight: 800;
+}
+@media screen and (max-width: 992px) 
+{
+   
+    .item
+    {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 576px) 
+{
+    #whatwe
+    {
+        padding: 2em;
+    }
+    #whatwe p
+    {
+        padding: 0em 1em;
+    }
+    .item
+    {
+        width: 100%;
+        padding: 1.4em;
+    }
+    .item img
+    {
+        width: 35%;
+    }
 }

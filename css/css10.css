@@ -3,7 +3,7 @@
     padding: 60px 100px;
     background-color: black;
     display: flex;
-    
+    justify-content: space-evenly;
     
 }
 #lastFooter h3{
@@ -17,23 +17,28 @@
 }
 #lastFooter p
 {
-    color: rgba(114, 113, 113, 0.925);
+    color: #727377;
     width: 75%;
+    font-size: 16px;
 }
 .itemFooter
 {
-    width: 25%;
-    padding-left: 2%;
+    width: 18%;
     
+    
+}
+.itemFooter2
+{
+    width: 30%;
 }
 #email2
 {
-    height: 40px;
+    padding: 13px;
     border: 0px;
 }
 #submit2
 {
-    height: 40px;
+    padding: 13px;
     color: white;
     background-color: rgb(219, 145, 8);
     width: 17%;
@@ -100,7 +105,43 @@ a.linkMxh
     color: white;
 } 
 
-
+@media screen and (max-width: 992px) 
+{
+    #lastFooter
+    {
+        padding: 2em 0em 2em 3em;
+        justify-content: space-between;
+    }
+    
+    .itemFooter2
+    {
+        width: 41%;
+    }
+}
+@media screen and (max-width: 576px) 
+{
+    #lastFooter
+    {
+        flex-wrap: wrap;
+        padding-left: 2em;
+    }
+    #lastFooter p
+    {
+        width: 90%;
+    }
+    .itemFooter
+    {
+        width: 50%;
+    }
+    .itemFooter2
+    {
+        width: 100%;
+    }
+    #lastFooter h3
+    {
+        margin: 1.1em 0em;
+    }
+}
 
 
 

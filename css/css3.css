@@ -1,10 +1,11 @@
 #wireframe
 {
     background-image: url(../img/1.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
+    background-position: center;
     
 }
 
@@ -13,7 +14,7 @@
     
     display: flex;
     
-    height: 100px;
+
     justify-content: space-between;   
 }
 #logo
@@ -73,7 +74,7 @@
 .sub_menu 
 {
     position: absolute;
-    background-color: black;
+    
     padding-left: 0px;
     display: none;
 }
@@ -81,7 +82,7 @@
 ul.sub_menu a
 {
     width: 128px;
-    
+    background-color: black;
 }
 
 ul.sub_menu li:hover
@@ -144,7 +145,7 @@ ul.sub_menu li:hover
 }
 #label-list
 {
-    height: 50px;
+    
     width: 100px;
     position: absolute; 
     bottom: 20px;
@@ -164,4 +165,111 @@ ul.sub_menu li:hover
     margin-right: 5px;
     margin-top: 20px;
 }
-
+#menu input[type=checkbox]
+{
+    display: none;
+    
+}
+#menu label
+{
+    display: none;
+    color: white;
+}
+@media screen and (max-width: 992px) 
+{
+    #menu ul li
+    {
+        display: none;
+    }
+    #menu>label
+    {
+        margin-top: 1.5em;
+    }
+    #menu label
+    {
+        display: block;
+    }
+    #menu>input[type=checkbox]:checked+ul li
+    {
+        display: block;
+    }
+    #menu ul li a.dropdown
+    {
+        display: none;
+    }
+    #menu>label
+    {
+        background-color: white;
+        color: black;
+        position: absolute;
+        right: 2em;
+    }
+    label
+    {
+        font-size: 17px;
+        padding: 1em;
+        border-radius: 5px;
+    }
+    ul li
+    {
+        position: absolute;
+        right: 5em;
+    }
+    ul.sub_menu li
+    {
+        position: absolute;
+        right: -7.4em;
+        top: -3em;
+    }
+    #main-header p
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 576px) 
+{
+    #logo
+    {
+        padding-top: 0px;
+    }
+    #menu label
+    {
+        margin-top: 0px;
+        padding: 0.5em;
+    }
+    #menu ul li a 
+    {
+        
+        padding: 0.5em;
+        
+    }
+    ul li
+    {
+        right: -2.6em;
+        top: 2em;
+        
+    }
+    ul.sub_menu li
+    {
+        right: 7.5em;
+        top: -3em;
+        z-index: 2;
+    }
+    #main-header
+    {
+        width: 80%;
+    }
+    #main-header h1
+    {
+        font-size: 2em;
+    }
+    #main-header p
+    {
+        font-size: 1em;
+    }
+    #main-header a
+    {
+        padding: 0.5em;
+        font-size: 1.1em;
+    }
+}

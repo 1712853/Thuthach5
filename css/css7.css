@@ -108,3 +108,10 @@ a.blogtittle:hover{
     flex-wrap: wrap;
     align-items: flex-start;
 }
+@media screen and (max-width: 992px) 
+{
+    #ourblog
+    {
+        padding: 60px 0px;
+    }
+}
