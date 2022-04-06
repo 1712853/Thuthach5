@@ -1,6 +1,6 @@
 #lastFooter
 {
-    padding: 60px 100px;
+    padding: 60px 110px;
     background-color: black;
     display: flex;
     justify-content: space-evenly;
@@ -18,8 +18,9 @@
 #lastFooter p
 {
     color: #727377;
-    width: 75%;
+    
     font-size: 16px;
+    letter-spacing: 1px;
 }
 .itemFooter
 {
@@ -41,7 +42,7 @@
     padding: 13px;
     color: white;
     background-color: rgb(219, 145, 8);
-    width: 17%;
+    
     border: 0px;
     position: relative;
     right: 5px;
@@ -109,10 +110,14 @@ a.linkMxh
 {
     #lastFooter
     {
-        padding: 2em 0em 2em 3em;
+        padding: 2em 0.5em 2em 2em;
         justify-content: space-between;
     }
-    
+    #lastFooter p
+    {
+        width: 90%;
+        word-wrap:break-word;
+    }
     .itemFooter2
     {
         width: 41%;
@@ -128,6 +133,7 @@ a.linkMxh
     #lastFooter p
     {
         width: 90%;
+        
     }
     .itemFooter
     {
