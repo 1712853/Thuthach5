@@ -6,8 +6,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
-    
+    animation: bg-pan-bl 40s both;
 }
+@keyframes bg-pan-bl {
+    0% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
 #statistics h2
 {
     
