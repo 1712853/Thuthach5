@@ -74,7 +74,7 @@
 .sub_menu 
 {
     position: absolute;
-    
+    top: 37px;
     padding-left: 0px;
     display: none;
 }
@@ -111,6 +111,11 @@ ul.sub_menu li:hover
     padding: 17px;
     border-radius: 5px;
 }
+#menu label:hover
+{
+    background-color: white;
+    color: black;
+}
 
 #main-header
 {
@@ -145,7 +150,7 @@ ul.sub_menu li:hover
 #main-header p
 {
     font-size: 18px;
-    width: 60%;
+    
     animation: tracking-in-expand 0.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     
 }
@@ -158,7 +163,8 @@ ul.sub_menu li:hover
       opacity: 0.6;
     }
     100% {
-      opacity: 1;
+        
+        opacity: 1;
     }
   }
 #main-header a
@@ -234,12 +240,13 @@ ul.sub_menu li:hover
     {
         position: absolute;
         right: 5em;
+        padding: 5px;
     }
     ul.sub_menu li
     {
         position: absolute;
-        right: -7.6em;
-        top: -3em;
+        right: -7.8em;
+        top: -2.5em;
     }
     #main-header p
     {
@@ -253,6 +260,7 @@ ul.sub_menu li:hover
     {
         display: block;
     }
+    
 
 }
 @media screen and (max-width: 576px) 
@@ -282,8 +290,8 @@ ul.sub_menu li:hover
     }
     ul.sub_menu li
     {
-        right: 7.8em;
-        top: -2.5em;
+        right: 8.4em;
+        top: -2.4em;
         z-index: 2;
     }
     #main-header
@@ -309,7 +317,7 @@ ul.sub_menu li:hover
     #logo
     {
         font-size: 1.8em;
-        padding-left: 1em;
+        padding-left: 0.6em;
         padding-top: 0.7em;
     }
 } 
